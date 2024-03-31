@@ -6,8 +6,8 @@
 >**Abstract:**
 The goal of image dehazing is to restore the latent haze-free image from a hazy image. Existing methods utilize the differences between clear/degraded images pairs in both spatial-domain and frequency -domain for dehazing and achieve some achievement. However, there are still issues with insufficient spatial -domain feature extrac-tion and fusion, as well as unsatisfactory frequency-domain feature fusion in dual-domain feature fusion. To address this, a novel dual-domain feature fusion network called DFFNet is proposed. Firstly, a spatial-domain feature fusion module (SFFM) is designed, which is more suitable for image soft reconstruction. It adopts a Transformer-style architecture and incorporates large kernel attention and pixel attention to model global and local features separately using different receptive fields, and performs mapping and fusion through a convolu-tional feed-forward network. Simultaneously, a frequency-domain feature fusion module (FFFM) is designed, which uses convolutional layers to amplify and enrich high-frequency features. It employs a novel feature fusion strategy that emphasizes and fuses multiple high-frequency features through channel interaction.volutional. Combining these two key designs, the proposed DFFNet demonstrates comparable or even better performance than state-of-the-art methods on two benchmark datasets. DFFNet-L is the first dehazing method to achieve a peak signal-to-noise ratio (PSNR) exceeding 43dB on the SOTS-Indoor dataset, with a PSNR of 43.83dB. The code has been released on https://github.com/WWJ0720/DFFNet.
 
-## 预印本(Preprint)，用于同行交流
-https://easychair.org/publications/preprint/ccXxl
+## 预印本(Preprint)，仅用于同行交流
+https://easychair.org/publications/preprint/zSBJ
 
 ## DFFNet框架:
 ![img.png](img.png)
