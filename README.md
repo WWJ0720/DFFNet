@@ -66,7 +66,4 @@ python test_haze4k.py --data_dir your_path --dataset Haze4K --model DFFNet_L --s
 ## 帮助:
 如果您有任何问题, 请发邮件联系wwj20000720@163.com.
 
-## 致谢
-在此特别感谢我的导师、@[AmeryXiong](https://github.com/AmeryXiong)和@[c-yn](https://github.com/c-yn), 在这项工作中他们给了我很多帮助并无私地为我解答问题, 真诚地感谢你们!
-
 
