@@ -8,10 +8,13 @@ The goal of image dehazing is to restore the latent haze-free image from a hazy 
 
 
 ## DFFNet框架:
-![img.png](img.png)
+![img.PNG](img.PNG)
 
 ## 实验结果:
 ![img_1.png](img_1.png)
+
+### 最新实验结果：<br/>
+![img_2.PNG](img_2.PNG)
 
 ## 数据集:
 数据集的准备参考[Dehazeformer](https://github.com/IDKiro/DehazeFormer#vision-transformers-for-single-image-dehazing), 数据集的格式与Dehazeformer中的相同. 
